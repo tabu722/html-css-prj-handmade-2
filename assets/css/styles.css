@@ -27,8 +27,9 @@ a {
 }
 
 .btn {
+	--height: 57px;
 	min-width: 173px;
-	padding: 14px 16px;
+	height: var(--height);
 	background: var(--primary-color);
 	border-radius: 40px;
 	border: 1.5px solid var(--primary-color);
@@ -36,10 +37,26 @@ a {
 	font-family: "Public Sans";
 	font-size: 1.8rem;
 	font-weight: 500;
-	line-height: 1.55;
+	line-height: var(--height);
+	text-align: center;
+}
+
+.section-heading {
+	color: #152427;
+	font-size: 4.2rem;
+	font-weight: 600;
+	line-height: 1.23;
+}
+
+.section-desc {
+	color: #7d8188;
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.62;
 }
 
 .btn:hover {
+	cursor: pointer;
 	background: #fff;
 	color: var(--primary-color);
 }
@@ -58,7 +75,6 @@ a {
 
 .header-top__navbar {
 	display: flex;
-
 	position: relative;
 }
 
@@ -66,7 +82,7 @@ a {
 	content: "";
 	display: inline-block;
 	position: absolute;
-	bottom: -13px;
+	bottom: -11%;
 	left: 22px;
 	width: 16px;
 	height: 2px;
@@ -91,4 +107,54 @@ a {
 
 .header-top__cta {
 	margin-bottom: 13px;
+}
+
+/* Hero */
+.hero {
+	padding: 60px 0 87px;
+}
+
+.hero__heading {
+	width: 368px;
+	font-size: 5rem;
+	font-weight: 800;
+	font-family: "Public Sans";
+	line-height: 1.2;
+}
+
+.hero__desc {
+	margin-top: 20px;
+	color: #575d5e;
+	font-family: "Public Sans";
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 1.55;
+}
+
+.hero-cta__row {
+	margin-top: 42px;
+	display: flex;
+	column-gap: 36px;
+}
+
+.hero-cta__play {
+	display: flex;
+	align-items: center;
+}
+
+.hero-cta__img--play {
+	margin-left: -20px;
+}
+
+.hero-cta__play:hover .hero-cta__img--play {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.hero-cta__watch {
+	margin-left: 15px;
+	color: #152427;
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 1.66;
 }
