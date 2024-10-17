@@ -633,6 +633,16 @@ a {
   width: 450px;
   height: 444px;
   object-fit: cover;
+  scale: 0;
+  opacity: 0;
+  visibility: visible;
+  transition: scale 1s, opacity 1s, visibility 1s;
+}
+
+.process-body:hover .process__img {
+  scale: 1;
+  opacity: 1;
+  visibility: visible;
 }
 
 .process__list {
@@ -650,6 +660,7 @@ a {
   height: 185px;
   border-radius: 33px;
   background: #fff;
+  transition: background 0.5s;
 }
 
 .process-body:hover {
@@ -824,10 +835,14 @@ a {
   width: 350px;
   height: 362px;
   border-radius: 160px;
+  scale: 1;
+  transition: scale 0.5s, border 0.5s;
 }
 
 .feature__box:hover {
   border: 2px solid #cecece;
+  scale: 1.1;
+  cursor: pointer;
 }
 
 .feature__box:first-child,
