@@ -1,1077 +1,1218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MODULARS</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MODULARS</title>
 
-    <!-- Reset CSS -->
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon" />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="./assets/favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="./assets/favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="./assets/favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./assets/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="./assets/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./assets/favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="./assets/favicon/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="./assets/favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./assets/favicon/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="./assets/favicon/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon" />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
 
-    <!-- Font Embed -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap"
-      rel="stylesheet"
-    />
+        <!-- Font Embed -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap"
+            rel="stylesheet"
+        />
 
-    <!--Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+        <!--Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
 
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
 
-    <!-- Animation -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  </head>
-  <body>
-    <!-- Header-top -->
-    <header class="header-top">
-      <div class="container">
-        <div class="header-top__inner">
-          <!-- Logo -->
-          <a href="#">
-            <img src="./assets/img/logo.svg" alt="" class="header-top__img" />
-          </a>
+        <!-- Animation -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-          <!-- Navigation -->
-          <nav>
-            <ul class="header-top__navbar">
-              <li class="header-top__items">
-                <a href="#" class="header-top-active">Home</a>
-              </li>
-              <li class="header-top__items">
-                <a href="#about" class="header-top-active"> About </a>
-              </li>
-              <li class="header-top__items">
-                <a href="#blog" class="header-top-active"> Blog </a>
-              </li>
-              <li class="header-top__items">
-                <a href="#contact" class="header-top-active"> Contact </a>
-              </li>
-            </ul>
-          </nav>
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-PE887BLKN4"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-          <!-- Action -->
-          <div class="header-top__cta">
-            <button class="header-top__btn btn">Sign Up</button>
-          </div>
-        </div>
-      </div>
-    </header>
+            gtag("config", "G-PE887BLKN4");
+        </script>
+    </head>
+    <body>
+        <!-- Header-top -->
+        <header class="header-top">
+            <div class="container">
+                <div class="header-top__inner">
+                    <!-- Logo -->
+                    <a href="#">
+                        <img
+                            src="./assets/img/logo.svg"
+                            alt=""
+                            class="header-top__img"
+                        />
+                    </a>
 
-    <main>
-      <!-- Hero -->
-      <section class="hero">
-        <div class="container">
-          <div class="hero__row">
-            <section class="hero__content">
-              <div class="hero__heading section-heading">
-                We’re a creative design agency.
-              </div>
-              <div class="hero__desc section-desc">
-                A brilliant, modular agency template for startup’s build yours
-                toady.
-              </div>
+                    <!-- Navigation -->
+                    <nav>
+                        <ul class="header-top__navbar">
+                            <li class="header-top__items">
+                                <a href="#" class="header-top-active">Home</a>
+                            </li>
+                            <li class="header-top__items">
+                                <a href="#about" class="header-top-active">
+                                    About
+                                </a>
+                            </li>
+                            <li class="header-top__items">
+                                <a href="#blog" class="header-top-active">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="header-top__items">
+                                <a href="#contact" class="header-top-active">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
 
-              <div class="hero-cta__row">
-                <a href="#!" class="hero-cta__touch btn"> Get in touch </a>
-                <div class="hero-cta__play">
-                  <svg
-                    class="hero-cta__img"
-                    width="29"
-                    height="59"
-                    viewBox="0 0 29 59"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M28.5 59C21.1311 59 14.0487 56.0457 8.73883 50.757C3.42898 45.4684 0.304523 38.2565 0.02109 30.6347C-0.262343 23.0129 2.31728 15.5737 7.21865 9.87821C12.12 4.1827 18.9621 0.673611 26.3092 0.0872876L26.6111 4.14035C20.2764 4.64587 14.3772 7.67142 10.1512 12.5821C5.92525 17.4928 3.7011 23.9068 3.94547 30.4783C4.18985 37.0498 6.88376 43.2679 11.4619 47.8278C16.0401 52.3877 22.1466 54.9349 28.5 54.9349V59Z"
-                      fill="#143C3C"
-                    />
-                  </svg>
-                  <svg
-                    class="hero-cta__img--play"
-                    width="44"
-                    height="43"
-                    viewBox="0 0 44 43"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <ellipse
-                      cx="22"
-                      cy="21.5"
-                      rx="22"
-                      ry="21.5"
-                      fill="#83A17D"
-                    />
-                    <path
-                      d="M26.4898 20.2259C27.1511 20.62 27.1377 21.5821 26.4658 21.9577L20.4968 25.2945C19.8249 25.6702 18.9983 25.1775 19.009 24.4078L19.1037 17.5701C19.1144 16.8004 19.9543 16.3309 20.6156 16.725L26.4898 20.2259Z"
-                      fill="#FEF6FB"
-                    />
-                  </svg>
-
-                  <a href="#!" class="hero-cta__watch"> Watch Video </a>
+                    <!-- Action -->
+                    <div class="header-top__cta">
+                        <button class="header-top__btn btn">Sign Up</button>
+                    </div>
                 </div>
-              </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__row">
+                        <section class="hero__content">
+                            <div class="hero__heading section-heading">
+                                We’re a creative design agency.
+                            </div>
+                            <div class="hero__desc section-desc">
+                                A brilliant, modular agency template for
+                                startup’s build yours toady.
+                            </div>
+
+                            <div class="hero-cta__row">
+                                <a href="#!" class="hero-cta__touch btn">
+                                    Get in touch
+                                </a>
+                                <div class="hero-cta__play">
+                                    <svg
+                                        class="hero-cta__img"
+                                        width="29"
+                                        height="59"
+                                        viewBox="0 0 29 59"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M28.5 59C21.1311 59 14.0487 56.0457 8.73883 50.757C3.42898 45.4684 0.304523 38.2565 0.02109 30.6347C-0.262343 23.0129 2.31728 15.5737 7.21865 9.87821C12.12 4.1827 18.9621 0.673611 26.3092 0.0872876L26.6111 4.14035C20.2764 4.64587 14.3772 7.67142 10.1512 12.5821C5.92525 17.4928 3.7011 23.9068 3.94547 30.4783C4.18985 37.0498 6.88376 43.2679 11.4619 47.8278C16.0401 52.3877 22.1466 54.9349 28.5 54.9349V59Z"
+                                            fill="#143C3C"
+                                        />
+                                    </svg>
+                                    <svg
+                                        class="hero-cta__img--play"
+                                        width="44"
+                                        height="43"
+                                        viewBox="0 0 44 43"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <ellipse
+                                            cx="22"
+                                            cy="21.5"
+                                            rx="22"
+                                            ry="21.5"
+                                            fill="#83A17D"
+                                        />
+                                        <path
+                                            d="M26.4898 20.2259C27.1511 20.62 27.1377 21.5821 26.4658 21.9577L20.4968 25.2945C19.8249 25.6702 18.9983 25.1775 19.009 24.4078L19.1037 17.5701C19.1144 16.8004 19.9543 16.3309 20.6156 16.725L26.4898 20.2259Z"
+                                            fill="#FEF6FB"
+                                        />
+                                    </svg>
+
+                                    <a href="#!" class="hero-cta__watch">
+                                        Watch Video
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="hero__image">
+                            <figure class="hero-img">
+                                <img
+                                    src="./assets/img/hero-1.png"
+                                    alt=""
+                                    class="hero-img__thumb thumb-1"
+                                />
+
+                                <img
+                                    src="./assets/img/hero-2.png"
+                                    alt=""
+                                    class="hero-img__thumb thumb-2"
+                                />
+
+                                <img
+                                    src="./assets/img/hero-3.png"
+                                    alt=""
+                                    class="hero-img__thumb thumb-3"
+                                />
+                                <div class="hero__circle"></div>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="icon__top">
+                        <svg
+                            class="icon__stars"
+                            width="84"
+                            height="84"
+                            viewBox="0 0 84 84"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z"
+                                fill="#83A17D"
+                            />
+                        </svg>
+
+                        <svg
+                            class="icon__rope"
+                            width="547"
+                            height="363"
+                            viewBox="0 0 547 363"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162"
+                                stroke="url(#paint0_linear_0_317)"
+                            />
+                            <defs>
+                                <linearGradient
+                                    id="paint0_linear_0_317"
+                                    x1="-103"
+                                    y1="-56.0001"
+                                    x2="486"
+                                    y2="313"
+                                    gradientUnits="userSpaceOnUse"
+                                >
+                                    <stop />
+                                    <stop
+                                        offset="0.553176"
+                                        stop-color="white"
+                                    />
+                                    <stop offset="1" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <div class="icon__down">
+                        <svg
+                            class="icon__rope-down"
+                            width="568"
+                            height="345"
+                            viewBox="0 0 568 345"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M1.00643 1.58137C34.8156 -2.31627 99.3507 10.0566 87.0177 90.7291C71.6014 191.57 77.798 194.139 220.216 202.1C362.634 210.061 377.985 271.129 370.513 314.264C363.041 357.4 250.041 361.391 254.979 268.31C259.918 175.228 465.637 128.582 566.717 274.808"
+                                stroke="url(#paint0_linear_0_318)"
+                            />
+                            <defs>
+                                <linearGradient
+                                    id="paint0_linear_0_318"
+                                    x1="677.91"
+                                    y1="372.715"
+                                    x2="64.3186"
+                                    y2="46.2372"
+                                    gradientUnits="userSpaceOnUse"
+                                >
+                                    <stop />
+                                    <stop
+                                        offset="0.553176"
+                                        stop-color="white"
+                                    />
+                                    <stop offset="1" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+
+                        <svg
+                            class="icon__stars-down"
+                            width="84"
+                            height="84"
+                            viewBox="0 0 84 84"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z"
+                                fill="#83A17D"
+                            />
+                        </svg>
+                    </div>
+                </div>
             </section>
 
-            <div class="hero__image">
-              <figure class="hero-img">
-                <img
-                  src="./assets/img/hero-1.png"
-                  alt=""
-                  class="hero-img__thumb thumb-1"
-                />
+            <!-- Logo -->
+            <div class="logo" data-aos="fade-up">
+                <div class="container">
+                    <div class="logo__list">
+                        <!-- Google -->
+                        <a href="#!" class="logo-items">
+                            <span class="logo-items__name--1">Google</span>
+                        </a>
 
-                <img
-                  src="./assets/img/hero-2.png"
-                  alt=""
-                  class="hero-img__thumb thumb-2"
-                />
+                        <!-- Slack -->
+                        <a href="#!" class="logo-items">
+                            <img
+                                src="./assets/img/Slack.svg"
+                                alt=""
+                                class="logo-items__img"
+                            />
+                            <span class="logo-items__name--2">Slack</span>
+                        </a>
 
-                <img
-                  src="./assets/img/hero-3.png"
-                  alt=""
-                  class="hero-img__thumb thumb-3"
-                />
-                <div class="hero__circle"></div>
-              </figure>
-            </div>
-          </div>
+                        <!-- Agworld -->
+                        <a href="#!" class="logo-items">
+                            <img
+                                src="./assets/img/agworld.svg"
+                                alt=""
+                                class="logo-items__img"
+                            />
+                            <span class="logo-items__name--3">Agworld</span>
+                        </a>
 
-          <div class="icon__top">
-            <svg
-              class="icon__stars"
-              width="84"
-              height="84"
-              viewBox="0 0 84 84"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z"
-                fill="#83A17D"
-              />
-            </svg>
+                        <!-- RioTinto -->
+                        <a href="#!" class="logo-items">
+                            <span class="logo-items__name--4">RioTinto</span>
+                        </a>
 
-            <svg
-              class="icon__rope"
-              width="547"
-              height="363"
-              viewBox="0 0 547 363"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162"
-                stroke="url(#paint0_linear_0_317)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_0_317"
-                  x1="-103"
-                  y1="-56.0001"
-                  x2="486"
-                  y2="313"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop />
-                  <stop offset="0.553176" stop-color="white" />
-                  <stop offset="1" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
-
-          <div class="icon__down">
-            <svg
-              class="icon__rope-down"
-              width="568"
-              height="345"
-              viewBox="0 0 568 345"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.00643 1.58137C34.8156 -2.31627 99.3507 10.0566 87.0177 90.7291C71.6014 191.57 77.798 194.139 220.216 202.1C362.634 210.061 377.985 271.129 370.513 314.264C363.041 357.4 250.041 361.391 254.979 268.31C259.918 175.228 465.637 128.582 566.717 274.808"
-                stroke="url(#paint0_linear_0_318)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_0_318"
-                  x1="677.91"
-                  y1="372.715"
-                  x2="64.3186"
-                  y2="46.2372"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop />
-                  <stop offset="0.553176" stop-color="white" />
-                  <stop offset="1" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-            </svg>
-
-            <svg
-              class="icon__stars-down"
-              width="84"
-              height="84"
-              viewBox="0 0 84 84"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z"
-                fill="#83A17D"
-              />
-            </svg>
-          </div>
-        </div>
-      </section>
-
-      <!-- Logo -->
-      <div class="logo" data-aos="fade-up">
-        <div class="container">
-          <div class="logo__list">
-            <!-- Google -->
-            <a href="#!" class="logo-items">
-              <span class="logo-items__name--1">Google</span>
-            </a>
-
-            <!-- Slack -->
-            <a href="#!" class="logo-items">
-              <img
-                src="./assets/img/Slack.svg"
-                alt=""
-                class="logo-items__img"
-              />
-              <span class="logo-items__name--2">Slack</span>
-            </a>
-
-            <!-- Agworld -->
-            <a href="#!" class="logo-items">
-              <img
-                src="./assets/img/agworld.svg"
-                alt=""
-                class="logo-items__img"
-              />
-              <span class="logo-items__name--3">Agworld</span>
-            </a>
-
-            <!-- RioTinto -->
-            <a href="#!" class="logo-items">
-              <span class="logo-items__name--4">RioTinto</span>
-            </a>
-
-            <!-- HEROKU -->
-            <a href="#!" class="logo-items">
-              <img
-                src="./assets/img/heroku.svg"
-                alt=""
-                class="logo-items__img"
-              />
-              <span class="logo-items__name--5">HEROKU</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Service -->
-      <section class="service">
-        <div class="container">
-          <div class="section-sub-title">
-            <div class="separated"></div>
-            <p class="sub-title">OUR SERVICES</p>
-          </div>
-          <div class="service__row">
-            <h2 class="service__heading section-heading">
-              We offer a wide range of design services
-            </h2>
-            <div class="service__icon">
-              <div class="icon-left">
-                <svg
-                  width="22"
-                  height="13"
-                  viewBox="0 0 22 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
-
-              <div class="icon-right">
-                <svg
-                  class="icon-right__rotate"
-                  width="22"
-                  height="13"
-                  viewBox="0 0 22 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
-            </div>
-          </div>
-
-          <div class="service__list">
-            <!-- Service-items 1 -->
-            <article
-              class="service-items"
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1500"
-            >
-              <figure>
-                <img
-                  src="./assets/img/service-1.png"
-                  alt=""
-                  class="service-items__thumb"
-                />
-              </figure>
-
-              <section class="service-items__body">
-                <a href="#!" class="service-items__heading">Branding</a>
-                <p class="services-items__desc">
-                  Create beautiful Agency website with Boluethat converts more
-                  visitors than any website.
-                </p>
-              </section>
-            </article>
-
-            <!-- Service-items 2 -->
-            <article
-              class="service-items"
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="2000"
-            >
-              <figure>
-                <img
-                  src="./assets/img/service-2.png"
-                  alt=""
-                  class="service-items__thumb"
-                />
-              </figure>
-
-              <section class="service-items__body">
-                <a href="#!" class="service-items__heading">Web Design</a>
-                <p class="services-items__desc">
-                  Create beautiful Agency website with Boluethat converts more
-                  visitors than any website.
-                </p>
-              </section>
-            </article>
-
-            <!-- Service-items 3 -->
-            <article
-              class="service-items"
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="2500"
-            >
-              <figure>
-                <img
-                  src="./assets/img/service-3.png"
-                  alt=""
-                  class="service-items__thumb"
-                />
-              </figure>
-
-              <section class="service-items__body">
-                <a href="#!" class="service-items__heading">Graphic Design</a>
-                <p class="services-items__desc">
-                  Create beautiful Agency website with Boluethat converts more
-                  visitors than any website.
-                </p>
-              </section>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- About -->
-      <section id="about" class="about">
-        <div class="container">
-          <div class="about__inner">
-            <!-- Icon -->
-            <div class="about__icon">
-              <svg
-                class="about__icon-star"
-                width="84"
-                height="84"
-                viewBox="0 0 84 84"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z"
-                  fill="#83A17D"
-                />
-              </svg>
-
-              <svg
-                class="about__icon-rope"
-                width="461"
-                height="425"
-                viewBox="0 0 461 425"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M460.801 424.491C427.499 418.557 369.615 388.251 404.496 314.498C448.099 222.306 442.937 218.074 309.647 169.723C176.358 121.373 159 52.0001 198.749 19.2986C232.544 -8.50494 326.949 8.60296 295.548 96.3573C264.146 184.112 54.9333 169.971 0.657194 0.99129"
-                  stroke="url(#paint0_linear_0_229)"
-                />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_0_229"
-                    x1="-77.1063"
-                    y1="-124.593"
-                    x2="416.003"
-                    y2="360.906"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop />
-                    <stop offset="0.553176" stop-color="white" />
-                    <stop offset="1" stop-opacity="0" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-
-            <figure class="about__image">
-              <img
-                src="./assets/img/about-3.jpg"
-                alt=""
-                class="about__img"
-                data-aos="fade-right"
-                data-aos-offset="400"
-                data-aos-easing="ease-in-sine"
-              />
-              <img
-                src="./assets/img/about-4.jpg"
-                alt=""
-                class="about__img"
-                data-aos="fade-left"
-                data-aos-offset="400"
-                data-aos-duration="500"
-              />
-            </figure>
-
-            <!-- Status -->
-            <div class="status">
-              <h3 class="status__title">All Designers</h3>
-              <p class="status__total">Total Balance</p>
-              <span class="status__number">40%</span>
-              <span class="status__loading">Loading...</span>
-              <svg
-                class="status__circle"
-                width="11"
-                height="11"
-                viewBox="0 0 11 11"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="5.5" cy="5.5" r="5.5" fill="#EAEAEA" />
-                <circle cx="5.5" cy="5.5" r="2.5" fill="#143C3C" />
-              </svg>
-
-              <div class="status__row">
-                <span class="status__team">Teams</span>
-                <div class="status__image">
-                  <img
-                    src="./assets/img/about-1.jpg"
-                    alt=""
-                    class="status__ava"
-                  />
-                  <img
-                    src="./assets/img/about-2.jpg"
-                    alt=""
-                    class="status__ava"
-                  />
-                  <img
-                    src="./assets/img/about-1.jpg"
-                    alt=""
-                    class="status__ava"
-                  />
-                  <img
-                    src="./assets/img/about-2.jpg"
-                    alt=""
-                    class="status__ava"
-                  />
+                        <!-- HEROKU -->
+                        <a href="#!" class="logo-items">
+                            <img
+                                src="./assets/img/heroku.svg"
+                                alt=""
+                                class="logo-items__img"
+                            />
+                            <span class="logo-items__name--5">HEROKU</span>
+                        </a>
+                    </div>
                 </div>
-              </div>
             </div>
 
-            <!-- About-content -->
-            <section class="about__content">
-              <div class="section-sub-title title-align">
-                <div class="separated title-align-sepa"></div>
-                <p class="sub-title">ABOUT US</p>
-              </div>
-              <h2 class="about__heading section-heading">
-                We are an extention of your creative team
-              </h2>
-              <p class="about__desc section-desc">
-                At the start of every project, we cusomizea detailed project
-                plan together with you set exectationns ensure alighment and
-                define key milestones and deiverbles.
-              </p>
-              <div class="about-number__row">
-                <span class="about-number__quanity">48%</span>
-                <p class="about-number__desc">
-                  Are you strive for two things in design simplicity and
-                  clarity. Great design is born of those two things
-                </p>
-              </div>
+            <!-- Service -->
+            <section class="service">
+                <div class="container">
+                    <div class="section-sub-title">
+                        <div class="separated"></div>
+                        <p class="sub-title">OUR SERVICES</p>
+                    </div>
+                    <div class="service__row">
+                        <h2 class="service__heading section-heading">
+                            We offer a wide range of design services
+                        </h2>
+                        <div class="service__icon">
+                            <div class="icon-left">
+                                <svg
+                                    width="22"
+                                    height="13"
+                                    viewBox="0 0 22 13"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
 
-              <div class="about-number__row">
-                <span class="about-number__quanity">26%</span>
-                <p class="about-number__desc">
-                  Are you strive for two things in design simplicity and
-                  clarity. Great design is born of those two things
-                </p>
-              </div>
-            </section>
-          </div>
-        </div>
-      </section>
+                            <div class="icon-right">
+                                <svg
+                                    class="icon-right__rotate"
+                                    width="22"
+                                    height="13"
+                                    viewBox="0 0 22 13"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- Process -->
-      <section class="process">
-        <div class="container">
-          <div class="process__inner">
-            <div class="section-sub-title title-align">
-              <div class="separated title-align-sepa"></div>
-              <p class="sub-title">OUR PROCESS</p>
-            </div>
-            <h2 class="process__heading section-heading">
-              A simple ,yet effective three step process
-            </h2>
+                    <div class="service__list">
+                        <!-- Service-items 1 -->
+                        <article
+                            class="service-items"
+                            data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500"
+                        >
+                            <figure>
+                                <img
+                                    src="./assets/img/service-1.png"
+                                    alt=""
+                                    class="service-items__thumb"
+                                />
+                            </figure>
 
-            <div class="process__list">
-              <article class="process-body">
-                <div class="process-body__content">
-                  <span class="process-body__number"> 01. </span>
+                            <section class="service-items__body">
+                                <a href="#!" class="service-items__heading"
+                                    >Branding</a
+                                >
+                                <p class="services-items__desc">
+                                    Create beautiful Agency website with
+                                    Boluethat converts more visitors than any
+                                    website.
+                                </p>
+                            </section>
+                        </article>
 
-                  <div class="process__about--left">
-                    <p class="process-body__text">Project idea</p>
+                        <!-- Service-items 2 -->
+                        <article
+                            class="service-items"
+                            data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="2000"
+                        >
+                            <figure>
+                                <img
+                                    src="./assets/img/service-2.png"
+                                    alt=""
+                                    class="service-items__thumb"
+                                />
+                            </figure>
 
-                    <a href="#!" class="process-body__link"> Learn More </a>
-                  </div>
+                            <section class="service-items__body">
+                                <a href="#!" class="service-items__heading"
+                                    >Web Design</a
+                                >
+                                <p class="services-items__desc">
+                                    Create beautiful Agency website with
+                                    Boluethat converts more visitors than any
+                                    website.
+                                </p>
+                            </section>
+                        </article>
+
+                        <!-- Service-items 3 -->
+                        <article
+                            class="service-items"
+                            data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="2500"
+                        >
+                            <figure>
+                                <img
+                                    src="./assets/img/service-3.png"
+                                    alt=""
+                                    class="service-items__thumb"
+                                />
+                            </figure>
+
+                            <section class="service-items__body">
+                                <a href="#!" class="service-items__heading"
+                                    >Graphic Design</a
+                                >
+                                <p class="services-items__desc">
+                                    Create beautiful Agency website with
+                                    Boluethat converts more visitors than any
+                                    website.
+                                </p>
+                            </section>
+                        </article>
+                    </div>
                 </div>
-                <figure>
-                  <img
-                    src="./assets/img/process.png"
-                    alt=""
-                    class="process__img"
-                  />
-                </figure>
-              </article>
-
-              <article class="process-body">
-                <div class="process-body__content">
-                  <span class="process-body__number">02.</span>
-                  <div class="process__about">
-                    <p class="process-body__text">Brainstormaing</p>
-
-                    <a href="#!" class="process-body__link"> Learn More </a>
-                  </div>
-                </div>
-                <p class="process-body__desc">
-                  We customse a ensure aligment and difine key mileones and
-                  defiverables experience tells us the best solutions are the
-                  ones deated with clients.
-                </p>
-              </article>
-
-              <article class="process-body">
-                <div class="process-body__content">
-                  <span class="process-body__number">03.</span>
-
-                  <div class="process__about">
-                    <p class="process-body__text">Execution</p>
-
-                    <a href="#!" class="process-body__link"> Learn More </a>
-                  </div>
-                </div>
-                <p class="process-body__desc">
-                  We customse a ensure aligment and difine key mileones and
-                  defiverables experience tells us the best solutions are the
-                  ones deated with clients.
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Video -->
-      <section class="video">
-        <div class="container">
-          <div class="video__inner">
-            <div class="video__row">
-              <h2 class="video__heading section-heading">
-                A quick glance of our past projects
-              </h2>
-              <div>
-                <p class="video__desc section-desc">
-                  Are you strive for the fast project simplicity and clarity.
-                  Great design is born of those two things.
-                </p>
-                <a href="#!" class="video__link"
-                  >Browse all Projects
-                  <img
-                    src="./assets/img/left arrow.svg"
-                    alt=""
-                    class="video__arrow"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div class="video__icon">
-              <svg
-                class="video-rope"
-                width="415"
-                height="472"
-                viewBox="0 0 415 472"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.08698 1.03818C6.27459 34.4648 35.2785 93.0123 109.793 59.789C202.937 18.2599 207.053 23.5152 252.41 157.853C297.767 292.19 366.734 311.095 400.317 272.088C428.869 238.923 413.877 144.159 325.442 173.59C237.007 203.021 246.465 412.497 414.188 470.54"
-                  stroke="url(#paint0_linear_0_156)"
-                />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_0_156"
-                    x1="538.003"
-                    y1="551.093"
-                    x2="63.6537"
-                    y2="47.2476"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop offset="0.203415" stop-color="#143C3C" />
-                    <stop offset="0.553176" stop-color="white" />
-                    <stop offset="1" stop-opacity="0" />
-                  </linearGradient>
-                </defs>
-              </svg>
-              <svg
-                class="video-star"
-                width="84"
-                height="84"
-                viewBox="0 0 84 84"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z"
-                  fill="#83A17D"
-                />
-              </svg>
-            </div>
-
-            <div class="video__body">
-              <video
-                class="video__play"
-                controls
-                width="1140"
-                height="544"
-                src="./assets/video/HOP ON DA SHOW .mp4"
-                type="video/mp4"
-              ></video>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Feature -->
-      <section class="feature">
-        <div class="container">
-          <div class="feature__inner">
-            <h2 class="feature__heading section-heading">
-              Share the features that help your customers
-            </h2>
-            <p class="feature__desc section-desc">
-              You already know that the customer experience doesn't end with a
-              sale — it's an ongoing work in progress that companies should be
-              constantly seeking to improve and iterate on.
-            </p>
-
-            <div class="feature__row">
-              <!-- Box 1 -->
-              <article class="feature__box">
-                <img src="./assets/img/blog.svg" alt="" class="feature__icon" />
-                <h3 class="feature__sub-title">Blog</h3>
-                <p class="feature__sub-desc">
-                  We’ve researched numerous agencies and complied a list of
-                  digital marketing agency blogs you should read to stay ahead
-                  of your rivals and succeed online!
-                </p>
-              </article>
-
-              <!-- Box 2 -->
-              <article class="feature__box">
-                <img
-                  src="./assets/img/Document.svg"
-                  alt=""
-                  class="feature__icon"
-                />
-                <h3 class="feature__sub-title">Documention</h3>
-                <p class="feature__sub-desc">
-                  In this article, we discuss the different types of
-                  documentation, what makes for great technical documentation,
-                  and provide examples.
-                </p>
-              </article>
-
-              <!-- Box 3 -->
-              <article class="feature__box">
-                <img
-                  src="./assets/img/Customer.svg"
-                  alt=""
-                  class="feature__icon"
-                />
-                <h3 class="feature__sub-title">Customers</h3>
-                <p class="feature__sub-desc">
-                  Your customers have high expectations — and if your business
-                  can't meet them, they're going to leave you for your
-                  competitors.
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Blog -->
-      <section id="blog" class="blog">
-        <div class="container">
-          <div class="blog__inner">
-            <div class="section-sub-title">
-              <div class="blog__align separated"></div>
-              <div class="sub-title">BLOG & ARTICLES</div>
-            </div>
-
-            <div class="blog__row">
-              <h2 class="blog__heading section-heading">
-                Take a look at our latest articles and resources
-              </h2>
-              <p class="blog__desc section-desc">
-                The best agency are the ones ideated with clients. we corporate
-                your ideas with memorable
-              </p>
-            </div>
-
-            <div class="blog__list">
-              <!-- Blog items 1 -->
-              <article class="blog-items">
-                <figure>
-                  <img
-                    src="./assets/img/design sprints.png"
-                    alt=""
-                    class="blog-items__img"
-                  />
-                </figure>
-                <div class="blog-items__body">
-                  <a href="#!" class="blog-items__btn">STORIES</a>
-                  <a href="#!" class="blog-items__title">
-                    What did we learn from nunning over 100 design sprints in
-                    less the year?
-                  </a>
-                  <div class="blog-items__separated"></div>
-                  <p class="blog-items__date">JANUARY 29, 2022</p>
-                </div>
-              </article>
-
-              <!-- Blog items 2 -->
-              <article class="blog-items">
-                <figure>
-                  <img
-                    src="./assets/img/blog-2.png"
-                    alt=""
-                    class="blog-items__img"
-                  />
-                </figure>
-                <div class="blog-items__body">
-                  <a href="#!" class="blog-items__btn">STORIES</a>
-                  <a href="#!" class="blog-items__title">
-                    The difference between the UI/UX design a simple guide for
-                    beginner’s
-                  </a>
-                  <div class="blog-items__separated"></div>
-                  <p class="blog-items__date">JANUARY 29, 2022</p>
-                </div>
-              </article>
-
-              <!-- Blog items 3 -->
-              <article class="blog-items">
-                <figure>
-                  <img
-                    src="./assets/img/business marketing.png"
-                    alt=""
-                    class="blog-items__img"
-                  />
-                </figure>
-                <div class="blog-items__body">
-                  <a href="#!" class="blog-items__btn">STORIES</a>
-                  <a href="#!" class="blog-items__title">
-                    How marketing can help your business more than anything.
-                  </a>
-                  <div class="blog-items__separated"></div>
-                  <p class="blog-items__date">JANUARY 29, 2022</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer id="contact" class="footer">
-      <div class="container">
-        <div class="footer__inner">
-          <div class="footer__sign">
-            <h2 class="footer__heading">Sign up for our newsletter</h2>
-            <form action="" class="email__row">
-              <input
-                type="email"
-                name="email"
-                id=""
-                placeholder="Enter your email"
-                class="footer_email"
-              />
-              <a href="#!">
-                <svg
-                  class="email__icon"
-                  width="22"
-                  height="12"
-                  viewBox="0 0 22 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1 6.29415H21M21 6.29415L15.7059 1.00003M21 6.29415L15.7059 11"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </a>
-            </form>
-            <div class="footer__separated"></div>
-            <div class="footer__social">
-              <a href="#!" class="social-items">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-
-              <a href="#!" class="social-items">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-
-              <a href="#!" class="social-items">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="footer__main">
-            <!-- Items 1 -->
-            <section>
-              <h3 class="footer__title">Pages</h3>
-              <ul class="footer-list">
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link">Home</a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link">About</a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link">Blog</a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link">Blog Post</a>
-                </li>
-              </ul>
             </section>
 
-            <!-- Items 2 -->
-            <section>
-              <h3 class="footer__title">Product</h3>
-              <ul class="footer-list">
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link">Home</a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link"> About </a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link">Blog</a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link"> Blog Post </a>
-                </li>
-              </ul>
+            <!-- About -->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <!-- Icon -->
+                        <div class="about__icon">
+                            <svg
+                                class="about__icon-star"
+                                width="84"
+                                height="84"
+                                viewBox="0 0 84 84"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z"
+                                    fill="#83A17D"
+                                />
+                            </svg>
+
+                            <svg
+                                class="about__icon-rope"
+                                width="461"
+                                height="425"
+                                viewBox="0 0 461 425"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M460.801 424.491C427.499 418.557 369.615 388.251 404.496 314.498C448.099 222.306 442.937 218.074 309.647 169.723C176.358 121.373 159 52.0001 198.749 19.2986C232.544 -8.50494 326.949 8.60296 295.548 96.3573C264.146 184.112 54.9333 169.971 0.657194 0.99129"
+                                    stroke="url(#paint0_linear_0_229)"
+                                />
+                                <defs>
+                                    <linearGradient
+                                        id="paint0_linear_0_229"
+                                        x1="-77.1063"
+                                        y1="-124.593"
+                                        x2="416.003"
+                                        y2="360.906"
+                                        gradientUnits="userSpaceOnUse"
+                                    >
+                                        <stop />
+                                        <stop
+                                            offset="0.553176"
+                                            stop-color="white"
+                                        />
+                                        <stop offset="1" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+
+                        <figure class="about__image">
+                            <img
+                                src="./assets/img/about-3.jpg"
+                                alt=""
+                                class="about__img"
+                                data-aos="fade-right"
+                                data-aos-offset="400"
+                                data-aos-easing="ease-in-sine"
+                            />
+                            <img
+                                src="./assets/img/about-4.jpg"
+                                alt=""
+                                class="about__img"
+                                data-aos="fade-left"
+                                data-aos-offset="400"
+                                data-aos-duration="500"
+                            />
+                        </figure>
+
+                        <!-- Status -->
+                        <div class="status">
+                            <h3 class="status__title">All Designers</h3>
+                            <p class="status__total">Total Balance</p>
+                            <span class="status__number">40%</span>
+                            <span class="status__loading">Loading...</span>
+                            <svg
+                                class="status__circle"
+                                width="11"
+                                height="11"
+                                viewBox="0 0 11 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <circle
+                                    cx="5.5"
+                                    cy="5.5"
+                                    r="5.5"
+                                    fill="#EAEAEA"
+                                />
+                                <circle
+                                    cx="5.5"
+                                    cy="5.5"
+                                    r="2.5"
+                                    fill="#143C3C"
+                                />
+                            </svg>
+
+                            <div class="status__row">
+                                <span class="status__team">Teams</span>
+                                <div class="status__image">
+                                    <img
+                                        src="./assets/img/about-1.jpg"
+                                        alt=""
+                                        class="status__ava"
+                                    />
+                                    <img
+                                        src="./assets/img/about-2.jpg"
+                                        alt=""
+                                        class="status__ava"
+                                    />
+                                    <img
+                                        src="./assets/img/about-1.jpg"
+                                        alt=""
+                                        class="status__ava"
+                                    />
+                                    <img
+                                        src="./assets/img/about-2.jpg"
+                                        alt=""
+                                        class="status__ava"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- About-content -->
+                        <section class="about__content">
+                            <div class="section-sub-title title-align">
+                                <div class="separated title-align-sepa"></div>
+                                <p class="sub-title">ABOUT US</p>
+                            </div>
+                            <h2 class="about__heading section-heading">
+                                We are an extention of your creative team
+                            </h2>
+                            <p class="about__desc section-desc">
+                                At the start of every project, we cusomizea
+                                detailed project plan together with you set
+                                exectationns ensure alighment and define key
+                                milestones and deiverbles.
+                            </p>
+                            <div class="about-number__row">
+                                <span class="about-number__quanity">48%</span>
+                                <p class="about-number__desc">
+                                    Are you strive for two things in design
+                                    simplicity and clarity. Great design is born
+                                    of those two things
+                                </p>
+                            </div>
+
+                            <div class="about-number__row">
+                                <span class="about-number__quanity">26%</span>
+                                <p class="about-number__desc">
+                                    Are you strive for two things in design
+                                    simplicity and clarity. Great design is born
+                                    of those two things
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
             </section>
 
-            <!-- Items 3 -->
-            <section>
-              <h3 class="footer__title">Overview</h3>
-              <ul class="footer-list">
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link"> Home1 </a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link"> Home2 </a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link"> Home3 </a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link"> Pricing1 </a>
-                </li>
-              </ul>
+            <!-- Process -->
+            <section class="process">
+                <div class="container">
+                    <div class="process__inner">
+                        <div class="section-sub-title title-align">
+                            <div class="separated title-align-sepa"></div>
+                            <p class="sub-title">OUR PROCESS</p>
+                        </div>
+                        <h2 class="process__heading section-heading">
+                            A simple ,yet effective three step process
+                        </h2>
+
+                        <div class="process__list">
+                            <article class="process-body">
+                                <div class="process-body__content">
+                                    <span class="process-body__number">
+                                        01.
+                                    </span>
+
+                                    <div class="process__about--left">
+                                        <p class="process-body__text">
+                                            Project idea
+                                        </p>
+
+                                        <a href="#!" class="process-body__link">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+                                <figure>
+                                    <img
+                                        src="./assets/img/process.png"
+                                        alt=""
+                                        class="process__img"
+                                    />
+                                </figure>
+                            </article>
+
+                            <article class="process-body">
+                                <div class="process-body__content">
+                                    <span class="process-body__number"
+                                        >02.</span
+                                    >
+                                    <div class="process__about">
+                                        <p class="process-body__text">
+                                            Brainstormaing
+                                        </p>
+
+                                        <a href="#!" class="process-body__link">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="process-body__desc">
+                                    We customse a ensure aligment and difine key
+                                    mileones and defiverables experience tells
+                                    us the best solutions are the ones deated
+                                    with clients.
+                                </p>
+                            </article>
+
+                            <article class="process-body">
+                                <div class="process-body__content">
+                                    <span class="process-body__number"
+                                        >03.</span
+                                    >
+
+                                    <div class="process__about">
+                                        <p class="process-body__text">
+                                            Execution
+                                        </p>
+
+                                        <a href="#!" class="process-body__link">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="process-body__desc">
+                                    We customse a ensure aligment and difine key
+                                    mileones and defiverables experience tells
+                                    us the best solutions are the ones deated
+                                    with clients.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <!-- Items 4 -->
-            <section>
-              <h3 class="footer__title">About us</h3>
-              <ul class="footer-list">
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link">Team</a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link"> Investors </a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link">Blog</a>
-                </li>
-                <li class="footer-items">
-                  <a href="#!" class="footer-items__link"> Press </a>
-                </li>
-              </ul>
-            </section>
-          </div>
-        </div>
-      </div>
-    </footer>
+            <!-- Video -->
+            <section class="video">
+                <div class="container">
+                    <div class="video__inner">
+                        <div class="video__row">
+                            <h2 class="video__heading section-heading">
+                                A quick glance of our past projects
+                            </h2>
+                            <div>
+                                <p class="video__desc section-desc">
+                                    Are you strive for the fast project
+                                    simplicity and clarity. Great design is born
+                                    of those two things.
+                                </p>
+                                <a href="#!" class="video__link"
+                                    >Browse all Projects
+                                    <img
+                                        src="./assets/img/left arrow.svg"
+                                        alt=""
+                                        class="video__arrow"
+                                    />
+                                </a>
+                            </div>
+                        </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+                        <div class="video__icon">
+                            <svg
+                                class="video-rope"
+                                width="415"
+                                height="472"
+                                viewBox="0 0 415 472"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M1.08698 1.03818C6.27459 34.4648 35.2785 93.0123 109.793 59.789C202.937 18.2599 207.053 23.5152 252.41 157.853C297.767 292.19 366.734 311.095 400.317 272.088C428.869 238.923 413.877 144.159 325.442 173.59C237.007 203.021 246.465 412.497 414.188 470.54"
+                                    stroke="url(#paint0_linear_0_156)"
+                                />
+                                <defs>
+                                    <linearGradient
+                                        id="paint0_linear_0_156"
+                                        x1="538.003"
+                                        y1="551.093"
+                                        x2="63.6537"
+                                        y2="47.2476"
+                                        gradientUnits="userSpaceOnUse"
+                                    >
+                                        <stop
+                                            offset="0.203415"
+                                            stop-color="#143C3C"
+                                        />
+                                        <stop
+                                            offset="0.553176"
+                                            stop-color="white"
+                                        />
+                                        <stop offset="1" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <svg
+                                class="video-star"
+                                width="84"
+                                height="84"
+                                viewBox="0 0 84 84"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M46.8882 6.31701L49.848 6.80655L45.4206 33.5746C45.8114 33.7129 46.1875 33.8782 46.547 34.0681L63.1192 14.0694L65.4291 15.9836L48.9102 35.918C49.2105 36.254 49.4836 36.6132 49.727 36.9919L74.4359 27.0909L75.5518 29.8756L50.8796 39.762C51.042 40.5005 51.1072 41.2697 51.0631 42.0529L77.7257 46.8149L77.1983 49.7682L50.3716 44.9769C50.1766 45.4263 49.9446 45.8535 49.6801 46.2555L71.0285 63.4752L69.145 65.8103L47.6062 48.4369C47.2391 48.7065 46.8505 48.9466 46.4443 49.1547L57.0985 75.2096L54.3216 76.3451L43.5613 50.0305C43.274 50.0639 42.9831 50.0828 42.6896 50.0864L38.099 77.8415L35.1392 77.3519L39.7298 49.5968C39.1834 49.4035 38.6657 49.1571 38.1817 48.8648L19.4888 71.4227L17.1788 69.5085L35.9277 46.8831C35.704 46.6021 35.4981 46.3072 35.3114 46.0003L8.71779 56.6566L7.60192 53.8719L34.2281 43.2025C34.1561 42.8311 34.1086 42.4524 34.0871 42.0685L6.31984 37.1092L6.8473 34.156L34.4501 39.0858C34.5521 38.7529 34.6734 38.4298 34.8127 38.1176L13.1035 20.6068L14.987 18.2717L36.5085 35.6311C36.7763 35.3588 37.0617 35.1051 37.3626 34.8716L27.0703 9.70153L29.8471 8.56606L40.032 33.4732C40.8063 33.2298 41.623 33.0953 42.4608 33.085L46.8882 6.31701Z"
+                                    fill="#83A17D"
+                                />
+                            </svg>
+                        </div>
+
+                        <div class="video__body">
+                            <video
+                                class="video__play"
+                                controls
+                                width="1140"
+                                height="544"
+                                src="./assets/video/HOP ON DA SHOW .mp4"
+                                type="video/mp4"
+                            ></video>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Feature -->
+            <section class="feature">
+                <div class="container">
+                    <div class="feature__inner">
+                        <h2 class="feature__heading section-heading">
+                            Share the features that help your customers
+                        </h2>
+                        <p class="feature__desc section-desc">
+                            You already know that the customer experience
+                            doesn't end with a sale — it's an ongoing work in
+                            progress that companies should be constantly seeking
+                            to improve and iterate on.
+                        </p>
+
+                        <div class="feature__row">
+                            <!-- Box 1 -->
+                            <article class="feature__box">
+                                <img
+                                    src="./assets/img/blog.svg"
+                                    alt=""
+                                    class="feature__icon"
+                                />
+                                <h3 class="feature__sub-title">Blog</h3>
+                                <p class="feature__sub-desc">
+                                    We’ve researched numerous agencies and
+                                    complied a list of digital marketing agency
+                                    blogs you should read to stay ahead of your
+                                    rivals and succeed online!
+                                </p>
+                            </article>
+
+                            <!-- Box 2 -->
+                            <article class="feature__box">
+                                <img
+                                    src="./assets/img/Document.svg"
+                                    alt=""
+                                    class="feature__icon"
+                                />
+                                <h3 class="feature__sub-title">Documention</h3>
+                                <p class="feature__sub-desc">
+                                    In this article, we discuss the different
+                                    types of documentation, what makes for great
+                                    technical documentation, and provide
+                                    examples.
+                                </p>
+                            </article>
+
+                            <!-- Box 3 -->
+                            <article class="feature__box">
+                                <img
+                                    src="./assets/img/Customer.svg"
+                                    alt=""
+                                    class="feature__icon"
+                                />
+                                <h3 class="feature__sub-title">Customers</h3>
+                                <p class="feature__sub-desc">
+                                    Your customers have high expectations — and
+                                    if your business can't meet them, they're
+                                    going to leave you for your competitors.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog -->
+            <section id="blog" class="blog">
+                <div class="container">
+                    <div class="blog__inner">
+                        <div class="section-sub-title">
+                            <div class="blog__align separated"></div>
+                            <div class="sub-title">BLOG & ARTICLES</div>
+                        </div>
+
+                        <div class="blog__row">
+                            <h2 class="blog__heading section-heading">
+                                Take a look at our latest articles and resources
+                            </h2>
+                            <p class="blog__desc section-desc">
+                                The best agency are the ones ideated with
+                                clients. we corporate your ideas with memorable
+                            </p>
+                        </div>
+
+                        <div class="blog__list">
+                            <!-- Blog items 1 -->
+                            <article class="blog-items">
+                                <figure>
+                                    <img
+                                        src="./assets/img/design sprints.png"
+                                        alt=""
+                                        class="blog-items__img"
+                                    />
+                                </figure>
+                                <div class="blog-items__body">
+                                    <a href="#!" class="blog-items__btn"
+                                        >STORIES</a
+                                    >
+                                    <a href="#!" class="blog-items__title">
+                                        What did we learn from nunning over 100
+                                        design sprints in less the year?
+                                    </a>
+                                    <div class="blog-items__separated"></div>
+                                    <p class="blog-items__date">
+                                        JANUARY 29, 2022
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- Blog items 2 -->
+                            <article class="blog-items">
+                                <figure>
+                                    <img
+                                        src="./assets/img/blog-2.png"
+                                        alt=""
+                                        class="blog-items__img"
+                                    />
+                                </figure>
+                                <div class="blog-items__body">
+                                    <a href="#!" class="blog-items__btn"
+                                        >STORIES</a
+                                    >
+                                    <a href="#!" class="blog-items__title">
+                                        The difference between the UI/UX design
+                                        a simple guide for beginner’s
+                                    </a>
+                                    <div class="blog-items__separated"></div>
+                                    <p class="blog-items__date">
+                                        JANUARY 29, 2022
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- Blog items 3 -->
+                            <article class="blog-items">
+                                <figure>
+                                    <img
+                                        src="./assets/img/business marketing.png"
+                                        alt=""
+                                        class="blog-items__img"
+                                    />
+                                </figure>
+                                <div class="blog-items__body">
+                                    <a href="#!" class="blog-items__btn"
+                                        >STORIES</a
+                                    >
+                                    <a href="#!" class="blog-items__title">
+                                        How marketing can help your business
+                                        more than anything.
+                                    </a>
+                                    <div class="blog-items__separated"></div>
+                                    <p class="blog-items__date">
+                                        JANUARY 29, 2022
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer id="contact" class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__sign">
+                        <h2 class="footer__heading">
+                            Sign up for our newsletter
+                        </h2>
+                        <form action="" class="email__row">
+                            <input
+                                type="email"
+                                name="email"
+                                id=""
+                                placeholder="Enter your email"
+                                class="footer_email"
+                            />
+                            <a href="#!">
+                                <svg
+                                    class="email__icon"
+                                    width="22"
+                                    height="12"
+                                    viewBox="0 0 22 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M1 6.29415H21M21 6.29415L15.7059 1.00003M21 6.29415L15.7059 11"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </a>
+                        </form>
+                        <div class="footer__separated"></div>
+                        <div class="footer__social">
+                            <a href="#!" class="social-items">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#!" class="social-items">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="#!" class="social-items">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__main">
+                        <!-- Items 1 -->
+                        <section>
+                            <h3 class="footer__title">Pages</h3>
+                            <ul class="footer-list">
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link"
+                                        >About</a
+                                    >
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link"
+                                        >Blog</a
+                                    >
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link"
+                                        >Blog Post</a
+                                    >
+                                </li>
+                            </ul>
+                        </section>
+
+                        <!-- Items 2 -->
+                        <section>
+                            <h3 class="footer__title">Product</h3>
+                            <ul class="footer-list">
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link"
+                                        >Blog</a
+                                    >
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link">
+                                        Blog Post
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <!-- Items 3 -->
+                        <section>
+                            <h3 class="footer__title">Overview</h3>
+                            <ul class="footer-list">
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link">
+                                        Home1
+                                    </a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link">
+                                        Home2
+                                    </a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link">
+                                        Home3
+                                    </a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link">
+                                        Pricing1
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <!-- Items 4 -->
+                        <section>
+                            <h3 class="footer__title">About us</h3>
+                            <ul class="footer-list">
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link"
+                                        >Team</a
+                                    >
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link">
+                                        Investors
+                                    </a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link"
+                                        >Blog</a
+                                    >
+                                </li>
+                                <li class="footer-items">
+                                    <a href="#!" class="footer-items__link">
+                                        Press
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>
